@@ -16,8 +16,23 @@ if n1 + n2 + n3 == n4 + n5 + n6:
     print('Yes')
 else:
     print('No')
+    
+    # Другой вариант
 n = input()
 if int(n[0]) + int(n[1]) + int(n[2]) == int(n[3]) + int(n[4]) + int(n[5]):
     print('Yes')
 else:
     print('No')
+    
+    #Другой вариант
+"""number = int(input("Введите шестизначный номер билетика: "))
+sumLeft = 0
+sumRight = 0
+
+if 99999 < number < 1000000:
+    for i in range(3):
+        sumLeft += number // 10 ** i % 10
+        sumRight += number // 10 ** (i+3) % 10
+    if sumLeft == sumRight: print("Вам попался счастливый билетик!!!")
+    else: print("Вам попался обычный билетик!")
+else: print("Номер билетика должен быть 6-ти значным!")"""
