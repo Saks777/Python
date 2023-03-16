@@ -13,8 +13,8 @@ print(list)
 
 """print('Put your number')
 a = int(input())
-print(a)"""
-
+print(a)"""          
+                
 a = 1.355
 b = 3
 c = round(a*b, 2)   # 2 указывает на количество цифр после запятой
