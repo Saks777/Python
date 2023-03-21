@@ -2,8 +2,8 @@
 вида 2k), не превосходящие числа N.
 10 -> 1 2 4 8"""
 
-n = int(input("Введите целое число :"))
+number = int(input("Введите число :"))
 i = 0
-while 2 ** i <= n:
-    print(2 ** i)
+while 2 ** i <= number:
+    print(f'Ответ :', str(2 ** i))
     i += 1
